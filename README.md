@@ -15,8 +15,11 @@
 This repository contains the code for the meta-analysis carried out in the review paper titled "Plasmids, a Molecular Cornerstone of Antimicrobial Resistance in the One Health Era".  
 
 ### **File Description:**
-#### **Data obtained from PLSDB**
-The files named [plsdb.tsv]() and [plsdb.abr]() were downloaded from PLSDB, version 2021_06_23_v2. The file plsdb.tsv contains the meta-data for all the plasmids whilw the file plsdb.abr contains the resistance gene annotations. 
-The files in the main directory named [Analysis.Rmd](https://github.com/marschmi/Diversity_Productivity/blob/master/Analysis.Rmd), [Analysis.html](Analysis.html), and [figures/](https://github.com/marschmi/Diversity_Productivity/tree/master/figures/) folder have all of the final analysis contents. **Please note that the [figures/](https://github.com/marschmi/Diversity_Productivity/tree/master/figures/) folder has all of the figures in the manuscript except Figure S6, which can be found [here](https://github.com/marschmi/Diversity_Productivity/blob/master/analysis/OTU_Removal_Analysis_Figs/figS6-1.png).**
-
-Two supplementary analysis files can be found in the [analysis/](https://github.com/DenefLab/Diversity_Productivity/tree/master/analysis) folder. Specifically: Files named [OTU_Removal_Analysis.Rmd](https://github.com/marschmi/Diversity_Productivity/blob/master/analysis/OTU_Removal_Analysis.Rmd), and [OTU_Removal_Analysis.html](analysis/OTU_Removal_Analysis.html) are for the rare OTU sensitivity analysis. Files named [PrunedTree_Analysis.html](analysis/PrunedTree_Analysis.html) and [PrunedTree_Analysis.Rmd](https://github.com/DenefLab/Diversity_Productivity/blob/master/analysis/PrunedTree_Analysis.Rmd) are for different types of phylogenetic analyses. 
+#### **Data obtained from PLSDB: [plsdb.tsv]() and [plsdb.abr]()**
+The files named plsdb.tsv and plsdb.abr were downloaded from PLSDB, version 2021_06_23_v2. The file plsdb.tsv contains the meta-data for all the plasmids while the file plsdb.abr contains the resistance gene annotations. 
+#### **Code for meta-analysis: [plasmid_meta.py]()**
+The file named plasmid_meta.py contains the script for carrying out the meta-analysis in Figure 3.
+#### **Classified plasmid sources table: [classifications.csv]()**
+The table classifications.csv contains the habitat to which each plasmid source was assigned. The columns 'Host_BIOSAMPLE' and 'IsolationSource_BIOSAMPLE' within plsdb.tsv contain metadata related to the source from which the plasmid was isolated. This information was used to determine whether each plasmid originated from Human, Animal, or Environmental habitats.  
+#### **Code for Figure 3: 'figure3.py'**
+The file named figure3.py contains the code for generating the figures.

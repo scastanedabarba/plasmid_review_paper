@@ -20,6 +20,6 @@ The files named plsdb.tsv and plsdb.abr were downloaded from PLSDB, version 2021
 #### **Code for meta-analysis: [plasmid_meta.py]()**
 The file named plasmid_meta.py contains the script for carrying out the meta-analysis in Figure 3.
 #### **Classified plasmid sources table: [classifications.csv]()**
-The table classifications.csv contains the habitat to which each plasmid source was assigned. The columns 'Host_BIOSAMPLE' and 'IsolationSource_BIOSAMPLE' within plsdb.tsv contain metadata related to the source from which the plasmid was isolated. This information was used to determine whether each plasmid originated from Human, Animal, or Environmental habitats.  
-#### **Code for Figure 3: 'figure3.py'**
+The table classifications.csv contains the habitat to which each plasmid was assigned. The columns 'Host_BIOSAMPLE' and 'IsolationSource_BIOSAMPLE' within plsdb.tsv contain metadata related to the source from which the plasmid was isolated. This information was used to determine whether each plasmid originated from Human, Animal, or Environmental habitats.  
+#### **Code for Figure 3: [figure3.py]()**
 The file named figure3.py contains the code for generating the figures.

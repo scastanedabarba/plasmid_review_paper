@@ -13,7 +13,7 @@
 This repository contains the code for the meta-analysis carried out in the review paper titled "Plasmids, a Molecular Cornerstone of Antimicrobial Resistance in the One Health Era".  
 
 ### **File Description:**
-#### **Data obtained from PLSDB: [plsdb.tsv]() and [plsdb.abr]()**
+#### **Data obtained from PLSDB: [plsdb.tsv](https://github.com/scastanedabarba/plasmid_review_paper/blob/d8bad770b352d069dc2ec795595e12e17d53c6ce/plsdb.tsv) and [plsdb.abr](https://github.com/scastanedabarba/plasmid_review_paper/blob/d8bad770b352d069dc2ec795595e12e17d53c6ce/plsdb.abr)**
 The files named plsdb.tsv and plsdb.abr were downloaded from PLSDB, version 2021_06_23_v2. The file plsdb.tsv contains the meta-data for all the plasmids while the file plsdb.abr contains the resistance gene annotations. 
 #### **Code for meta-analysis: [plasmid_meta.py]()**
 The file named plasmid_meta.py contains the script for carrying out the meta-analysis in Figure 3.

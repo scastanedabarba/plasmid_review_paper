@@ -1,4 +1,4 @@
-# Plasmids, a Molecular Cornerston of Antimicrobial Resistance in the One Health Era
+# Plasmids, a Molecular Cornerstone of Antimicrobial Resistance in the One Health Era
 
 ###  **Authors:** Salvador Castaneda-Barba, Eva M. Top, Thibault Stalder
 
